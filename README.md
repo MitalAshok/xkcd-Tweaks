@@ -38,7 +38,17 @@ Note: To edit variables after you have installed the script with GreaseMonkey on
 
 _If you are having issues, start a discussion here (GreasyFork)._
 
-<small><small><small><small><small>
-<a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons Licence" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a></small></small></small><br /><span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">xkcd Tweaks</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="https://greasyfork.org/en/users/59570-mital-ashok" property="cc:attributionName" rel="cc:attributionURL">Mital Ashok</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.
-<a rel="icon" href="https://xkcd.com/s/919f27.ico">Icon image</a>, <a rel="xkcd" href="https://xkcd.com/">xkcd</a> and <a rel="what-if" href="https://what-if.xkcd.com/">What If?</a> by <a rel="blog" href="https://blog.xkcd.com/author/randallpmunroe/">Randall P. Munroe</a> are used under <a rel="iconlicense" href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5<a> / Icon reencoded as .png base 64 data URI (`data:image/png;base64,...`).
-</small></small>
+<small><small><small><small><small>This software and associated documentation is licenced under the MIT License.
+
+The MIT License (MIT)
+
+Copyright (c) 2016 Mital Ashok
+
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+<a rel="icon" href="https://xkcd.com/s/919f27.ico">Icon image</a>, <a rel="xkcd" href="https://xkcd.com/">xkcd</a> and <a rel="what-if" href="https://what-if.xkcd.com/">What If?</a> by <a rel="blog" href="https://blog.xkcd.com/author/randallpmunroe/">Randall P. Munroe</a> are used under <a rel="iconlicense" href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a> / Icon reencoded as .png base 64 data URI (`data:image/png;base64,...`).
+</small></small></small></small></small>
