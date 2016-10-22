@@ -1,4 +1,4 @@
-  // ==UserScript==
+// ==UserScript==
 // @name          xkcd Tweaks
 // @description   Some tweaks to xkcd.com and what-if.xkcd.com
 // @include       /^(https?:)?(\/\/)?(www\.)?(what-?if\.)?xkcd\.com/
@@ -21,7 +21,7 @@ var border = true,
 
 
 if (/(?:^\?|&)tweaks=(?:false|f|0|)(?:&|$)/i.test(window.location.search)) {
-  throw '';
+  throw new Error('xkcd Tweaks off');
 }
 
 var time = new Date().getTime(),
