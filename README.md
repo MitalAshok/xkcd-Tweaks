@@ -36,7 +36,7 @@ Mostly tested and probably works fine with Chrome 52.0*
 
 Note: To edit variables after you have installed the script with GreaseMonkey on Firefox, go to '<a href="about:addons">about:addons</a>' (Or do <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>a</kbd>), go to the 'User Scripts' tab, click <kbd>Options</kbd> and then 'Edit this User Script'.
 
-_If you are having issues, start a discussion here (GreasyFork)._
+_If you are having issues, start a discussion on [GitHub](https://github.com/MitalAshok/xkcd-Tweaks/issues/new)._
 
 <small><small><small><small><small>This software and associated documentation is licenced under the MIT License.
 
