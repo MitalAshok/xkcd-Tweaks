@@ -6,7 +6,7 @@
 // @icon          data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACAAAAAgCAYAAABzenr0AAABX0lEQVRYhcWVMZIEIQhFOYrhHM8baGjoEbyRYYcehY2cchXwt7O9Q1VXzQDKAxSJiPjLH/G3xARwzi20zrnnAaTAT4GIAGjvJAkhLH4hBBxgzl5ZIFbBqpxWsQXAyk4CQYJbEH8GcNo2EQAVC2CU1to9gE8rIJW6t2gLoDlKC8dAyPWEAOZslAWLDYWGAE5ONBFxa00N3s8BBGCBbO6z2f/bAPPmiM/H11AjtzL03sMA3nsM4M5YfQRgLJn2WxK09CZAz75nOm4y206rpgJIAeYsJJ9T6AVAGzKW7hR6AZDKNZZV0xsb/9IZoPIB211DLbgGPdpEgFlmoN2JZmautS7QtVbVfzsHXq/XorNevJQSExGXUriUwkTEKaX7AJ3+ui5Rv9mQY4wcYzybA1YgFGD+r7UBGkSorWecc37rcs5mG0SAu1nO+nHej+/EvwGgehFgvD47AHQdYMOe0qe+Hzm8hknb8QYpAAAAAElFTkSuQmCC
 // @namespace     https://greasyfork.org/en/users/59570-mital-ashok
 // @license       MIT License
-// @version       3.0.2
+// @version       3.0.3
 // @grant         none
 // @updateurl     https://mitalashok.github.io/xkcd-Tweaks.user.js
 // @noframes
@@ -490,7 +490,7 @@
     .replace(/^https?:\/\/whatif/, 'https://what-if')
     .replace(/^https:\/\/xkcd\.com\/1663/, 'http://xkcd.com/1663')
     .replace(/\/#$/, '/')
-    .replace(/^https\/\/(what-if\.)?xkcd\.com\/\d+$/);
+    .replace(/^(https:\/\/(what-if\.)?xkcd\.com\/\d+)$/, '$1/');
   if (new_location !== window.location.href) {
     window.location.replace(new_location);
   }
