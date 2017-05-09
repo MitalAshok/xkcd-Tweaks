@@ -23,7 +23,7 @@
   var border = true;
   var hr = true;
   var title_text = true;
-  var snap = !false;
+  var snap = false;
   var explain_button = true;
   var transcript = true;
 
@@ -65,8 +65,8 @@
 
     function is_editable(node) {
       var name = node.nodeName.toLowerCase();
-      return node.hasAttribute('contenteditable') || node.nodeType === 1 && (name === "textarea" ||
-        name === "input" && /^(?:text|email|number|search|tel|url|password|)$/i.test(node.type));
+      return node.hasAttribute('contenteditable') || node.nodeType === 1 && (name === 'textarea' ||
+        name === 'input' && /^(?:text|email|number|search|tel|url|password|)$/i.test(node.type));
     }
 
     function xhr(url, timeout, method) {
@@ -179,11 +179,11 @@
           var a = document.createElement('a');
           a.href = window.decodeURIComponent('%6A%61%76%61%73%63%72%69%70%74%3A') + window.encodeURIComponent(
               'function() {' +
-              'var random = window.Math.floor(window.Math.random() * ' + (last_number - 1) + ') + 1;' +
-              'if (random >= ' + number + ') {' +
-              'random++;' +
-              '}' +
-              'window.location.replace("' + window.location.origin + '/" + random + "/");' +
+                'var random = window.Math.floor(window.Math.random() * ' + (last_number - 1) + ') + 1;' +
+                'if (random >= ' + number + ') {' +
+                  'random++;' +
+                '}' +
+                'window.location.replace("' + window.location.origin + '/" + random + "/");' +
               '}'
             );
           a.className = 'random-button';
