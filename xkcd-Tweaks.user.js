@@ -6,14 +6,14 @@
 // @icon          https://xkcd.com/favicon.ico
 // @namespace     https://greasyfork.org/en/users/59570-mital-ashok
 // @license       MIT License
-// @version       3.0.5
+// @version       3.0.6
 // @grant         none
 // @updateurl     https://mitalashok.github.io/xkcd-Tweaks.user.js
 // @run-at        document-start
 // @noframes
 // ==/UserScript==
 
-(function(window, document, undefined) {'use strict';
+(function(window, undefined) {'use strict';
 
   // ==Settings==
 
@@ -25,6 +25,8 @@
   var transcript = true;
 
   // ==/Settings==
+
+  var document = window.document;
 
   var main_run = false;
   function main() {
@@ -129,8 +131,8 @@
           return !head_anchor.hasAttribute('href') && head_anchor.style.textDecoration === 'underline';
         });
       }
-      var is_first;
-      var is_last;
+      var is_first = true;
+      var is_last = true;
       window.Array.prototype.forEach.call(document.getElementsByTagName('a'), function(a) {
         if (a.firstChild) {
           if (a.firstChild.textContent === 'Prev') {
@@ -176,13 +178,13 @@
           var li = document.createElement('li');
           var a = document.createElement('a');
           a.href = window.decodeURIComponent('%6A%61%76%61%73%63%72%69%70%74%3A') + window.encodeURIComponent(
-              'function() {' +
-                'var random = window.Math.floor(window.Math.random() * ' + (last_number - 1) + ') + 1;' +
+              '(function() {' +
+                'var random = window.Math.floor(window.Math.random() * ' + (last - 1) + ') + 1;' +
                 'if (random >= ' + number + ') {' +
                   'random++;' +
                 '}' +
                 'window.location.replace("' + window.location.origin + '/" + random + "/");' +
-              '}'
+              '})();'
             );
           a.className = 'random-button';
           a.innerText = 'Random';
@@ -560,4 +562,19 @@
     main();
   }
 
-})(this, this.document);
+})(function(context) {
+  /* Greasemonkey is sandboxing even though @grant none is used workaround to get a `window`. */
+  if (this) {
+    return this;
+  }
+  if (typeof window === 'object' && window !== null && window.window === window) {
+    return window;
+  }
+  if (typeof self === 'object' && self !== null && self.self === self) {
+    return self;
+  }
+  if (typeof global === 'object' && global !== null && global.global === global) {
+    return global;
+  }
+  return context;
+}(this));
