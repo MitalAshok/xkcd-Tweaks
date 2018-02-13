@@ -1,10 +1,12 @@
 # xkcd Tweaks
 
+[Install userscript link](https://mitalashok.github.io/xkcd-Tweaks/xkcd-Tweaks.user.js)
+
 xkcd Tweaks is a script that changes some little things that annoyed me. Made in an afternoon. Thought I would share.
 
-Tested and works perfectly with Firefox 48.0*
-Mostly tested and probably works fine with Chrome 52.0*
-(Nothing else tested)
+Tested and works perfectly with Firefox 58.0*
+Mostly tested and probably works fine with Chrome 63.0*
+(Nothing else tested, but will probably still work)
 <small><small>*Latest as of 2016-08-10</small></small>
 
 <h2><a href="https://xkcd.com/">xkcd.com</a> Tweaks</h2>
@@ -36,7 +38,7 @@ Mostly tested and probably works fine with Chrome 52.0*
 
 Note: To edit variables after you have installed the script with GreaseMonkey on Firefox, go to '<a href="about:addons">about:addons</a>' (Or do <kbd>Ctrl</kbd>+<kbd>Shift</kbd>+<kbd>a</kbd>), go to the 'User Scripts' tab, click <kbd>Options</kbd> and then 'Edit this User Script'.
 
-_If you are having issues, start a discussion on [GitHub](https://github.com/MitalAshok/xkcd-Tweaks/issues/new)._
+_If you are having problems or find a bug, create an issue on [GitHub](https://github.com/MitalAshok/xkcd-Tweaks/issues/new)._
 
 <small><small><small><small><small>This software and associated documentation is licenced under the MIT License.
 
@@ -50,5 +52,5 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-<a rel="icon" href="https://xkcd.com/s/919f27.ico">Icon image</a>, <a rel="xkcd" href="https://xkcd.com/">xkcd</a> and <a rel="what-if" href="https://what-if.xkcd.com/">What If?</a> by <a rel="blog" href="https://blog.xkcd.com/author/randallpmunroe/">Randall P. Munroe</a> are used under <a rel="iconlicense" href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a> / Icon reencoded as .png base 64 data URI (`data:image/png;base64,...`).
+<a rel="icon" href="https://xkcd.com/favicon.ico">Icon image</a>, <a rel="xkcd" href="https://xkcd.com/">xkcd</a> and <a rel="what-if" href="https://what-if.xkcd.com/">What If?</a> by <a rel="blog" href="https://blog.xkcd.com/author/randallpmunroe/">Randall P. Munroe</a> are licensed under <a rel="iconlicense" href="https://creativecommons.org/licenses/by-nc/2.5/">CC BY-NC 2.5</a>
 </small></small></small></small></small>
